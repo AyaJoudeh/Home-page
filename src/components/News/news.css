@@ -1,0 +1,33 @@
+.nesDesc{
+    margin-top: 12rem;
+   
+}
+.newsDesc-title{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 3rem; 
+    font: normal normal normal 40px/51px Lora;
+    letter-spacing: 0px;
+    color: #191919;
+   opacity: 1;
+
+}
+.newsDesc-text{
+    font-size: 16px;
+    margin: 2rem 12rem;
+    font: italic normal normal 16px/25px Poppins;
+     letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+.card-image2{
+    width: 19rem;
+    margin: auto;
+    
+  }
+
+  @media (max-width: 768px) {
+  .cardsContainer{
+   margin-left: 7rem;
+  }
+}

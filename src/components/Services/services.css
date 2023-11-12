@@ -1,0 +1,57 @@
+.servDesc-title {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 3rem; 
+    font: normal normal normal 40px/51px Lora;
+    letter-spacing: 0px;
+   color: #191919;
+   opacity: 1;
+   text-align: left;
+
+  }
+  .servDesc-text {
+    font-size: 16px;
+    font: italic normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+    text-align: left;
+    max-width: 30rem;
+    margin-left: 3rem;
+    
+
+  }
+  .title-span{
+    text-align: left;
+font: normal normal  54px/69px Lora;
+letter-spacing: 0px;
+color: #191919;
+opacity: 1;
+  }
+  .card-image{
+    width: 5rem;
+    margin: auto;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+  .arrow-button {
+    position: absolute;
+    top: 63%;
+    right: center;
+  }
+
+  @media (max-width: 768px) {
+
+  .services-container{
+    margin-left: 5rem;
+  }
+  .servDesc-title,.servDesc-text{
+    margin-left: 5rem;
+    width:100rem
+  }
+  }

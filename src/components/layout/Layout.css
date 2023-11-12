@@ -1,0 +1,11 @@
+Nav.Link :hover{
+    color:#FFCE08 !important;
+    font-weight: bold;
+}
+Nav.Link{
+    color:white !important;
+    font-weight: bold;
+}
+Navbar.Brand{
+    color:white !important;
+}

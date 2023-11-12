@@ -1,0 +1,84 @@
+.contact-container{
+    background-image: url('../../assets/contactImg.png');
+    margin-top: 4rem;
+    padding: 3rem
+}
+.contactDesc-title{
+        font-size: 3rem;
+        font-weight: lighter;
+        font:  normal normal  50px/60px Lora;
+        letter-spacing: 0px;
+        color: #191919;
+       opacity: 1;
+
+}
+.leftDesc-text{
+    font-size: 16px;
+    margin: 2rem 12rem; 
+    font: italic normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+    text-align: left;
+   font: italic normal normal 16px/25px Poppins;
+letter-spacing: 0px;
+color: #191919;
+opacity: 1;
+width: 30rem;
+
+}
+.introDesc-text{
+    margin-left: 3rem;
+}
+.question-icon, .question-p {
+    display: inline-block;
+    margin: 0.3rem;
+    vertical-align: middle; 
+}
+.question-p{
+    width: 30rem;
+   
+}
+.contact-form-container{
+    padding: 2rem;
+    width: 70%;
+    height: 100%;
+    border-radius: 4%;
+    position: relative;
+    top:30%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 32px #D8D8D861;
+    border-radius: 30px;
+    opacity: 1;
+}
+.leftSideCont{
+    padding: 4rem;
+}
+.expDesc-button {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1rem;
+    box-shadow: 0px 3px 24px #19191929;
+    
+    
+  }
+
+@media (max-width: 768px) {
+    .contact-form-container{
+        top:4%;
+        left:14%
+    }
+    .contactDesc-title{
+        margin: 0;
+    }
+    .leftDesc-text{
+        margin: 0;
+    }
+
+}
+@media (max-width: 521px) {
+    .leftSideCont{
+        padding: 0;
+    }
+    
+}
